@@ -163,4 +163,4 @@ class Scraper:
 # For running from terminal
 if __name__ == "__main__":
     scraper = Scraper(path_to_csv=default_path_to_csv)
-    print(scraper.invoices)
+    print(scraper.get_all_invoices())
