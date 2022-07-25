@@ -1,5 +1,4 @@
 import os
-import re
 import pandas as pd
 import urllib.request
 from io import BytesIO, StringIO
